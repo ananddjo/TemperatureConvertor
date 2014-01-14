@@ -37,8 +37,8 @@
 {
     [super viewDidLoad];
     // Detect which field has changed
-    [self.txtFahrenheit addTarget:self action:@selector(fahrenheitChanged:) forControlEvents:UIControlEventEditingDidEnd];
-    [self.txtCelsius addTarget:self action:@selector(celsiusChanged:) forControlEvents:UIControlEventEditingDidEnd];
+    [self.txtFahrenheit addTarget:self action:@selector(fahrenheitChanged:) forControlEvents:UIControlEventEditingChanged];
+    [self.txtCelsius addTarget:self action:@selector(celsiusChanged:) forControlEvents:UIControlEventEditingChanged];
 }
 
 - (void)didReceiveMemoryWarning

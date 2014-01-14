@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4B936176-C115-440C-8EC9-0EF76523ECA0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TemperatureConvertor</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>500CD17E-E58D-412C-A61C-F85A553F107C</key>
+		<string>https://github.com/ananddjo/TemperatureConvertor.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TemperatureConvertor.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>500CD17E-E58D-412C-A61C-F85A553F107C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ananddjo/TemperatureConvertor.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>500CD17E-E58D-412C-A61C-F85A553F107C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>500CD17E-E58D-412C-A61C-F85A553F107C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TemperatureConvertor</string>
+		</dict>
+	</array>
+</dict>
+</plist>
