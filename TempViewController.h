@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TempViewController.h
 //  TemperatureConvertor
 //
 //  Created by Anand Joshi on 1/13/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface TempViewController : UIViewController
 
 @end

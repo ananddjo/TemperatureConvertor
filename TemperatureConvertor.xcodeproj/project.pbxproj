@@ -14,13 +14,13 @@
 		6E941EFB1883F8A8001B67F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E941EFA1883F8A8001B67F1 /* main.m */; };
 		6E941EFF1883F8A8001B67F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E941EFE1883F8A8001B67F1 /* AppDelegate.m */; };
 		6E941F021883F8A8001B67F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E941F001883F8A8001B67F1 /* Main.storyboard */; };
-		6E941F051883F8A8001B67F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E941F041883F8A8001B67F1 /* ViewController.m */; };
 		6E941F071883F8A8001B67F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E941F061883F8A8001B67F1 /* Images.xcassets */; };
 		6E941F0E1883F8A8001B67F1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E941F0D1883F8A8001B67F1 /* XCTest.framework */; };
 		6E941F0F1883F8A8001B67F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E941EEE1883F8A8001B67F1 /* Foundation.framework */; };
 		6E941F101883F8A8001B67F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E941EF21883F8A8001B67F1 /* UIKit.framework */; };
 		6E941F181883F8A8001B67F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E941F161883F8A8001B67F1 /* InfoPlist.strings */; };
 		6E941F1A1883F8A8001B67F1 /* TemperatureConvertorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E941F191883F8A8001B67F1 /* TemperatureConvertorTests.m */; };
+		6E941F251883F90A001B67F1 /* TempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E941F241883F90A001B67F1 /* TempViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		6E941EFD1883F8A8001B67F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6E941EFE1883F8A8001B67F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6E941F011883F8A8001B67F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6E941F031883F8A8001B67F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6E941F041883F8A8001B67F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6E941F061883F8A8001B67F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6E941F0C1883F8A8001B67F1 /* TemperatureConvertorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemperatureConvertorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E941F0D1883F8A8001B67F1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6E941F151883F8A8001B67F1 /* TemperatureConvertorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TemperatureConvertorTests-Info.plist"; sourceTree = "<group>"; };
 		6E941F171883F8A8001B67F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6E941F191883F8A8001B67F1 /* TemperatureConvertorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperatureConvertorTests.m; sourceTree = "<group>"; };
+		6E941F231883F90A001B67F1 /* TempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TempViewController.h; path = ../TempViewController.h; sourceTree = "<group>"; };
+		6E941F241883F90A001B67F1 /* TempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TempViewController.m; path = ../TempViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +112,11 @@
 		6E941EF41883F8A8001B67F1 /* TemperatureConvertor */ = {
 			isa = PBXGroup;
 			children = (
+				6E941F231883F90A001B67F1 /* TempViewController.h */,
+				6E941F241883F90A001B67F1 /* TempViewController.m */,
 				6E941EFD1883F8A8001B67F1 /* AppDelegate.h */,
 				6E941EFE1883F8A8001B67F1 /* AppDelegate.m */,
 				6E941F001883F8A8001B67F1 /* Main.storyboard */,
-				6E941F031883F8A8001B67F1 /* ViewController.h */,
-				6E941F041883F8A8001B67F1 /* ViewController.m */,
 				6E941F061883F8A8001B67F1 /* Images.xcassets */,
 				6E941EF51883F8A8001B67F1 /* Supporting Files */,
 			);
@@ -249,9 +249,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E941F051883F8A8001B67F1 /* ViewController.m in Sources */,
 				6E941EFF1883F8A8001B67F1 /* AppDelegate.m in Sources */,
 				6E941EFB1883F8A8001B67F1 /* main.m in Sources */,
+				6E941F251883F90A001B67F1 /* TempViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
